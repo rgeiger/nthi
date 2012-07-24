@@ -123,6 +123,10 @@ header h1 {
 	text-transform: uppercase;
 }
 
+header h2 {
+		background: url(../images/israel_logo.jpg) no-repeat left center;
+}
+
 /*nav styles*/
 #mainNav {
 	overflow: hidden;
