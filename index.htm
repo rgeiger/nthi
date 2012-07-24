@@ -78,27 +78,43 @@
       </ul>
     </nav>
     <section class="contest">
-      <h2>Sign up for our newsletter</h2>
+      <h2>Sign up for our mailing list</h2>
       
 		<form name="newsletter signup" method="get" action="">
           <fieldset>
             <legend><strong>Personal Information</strong></legend>
             <p>
               <label for="name">Name</label>
-              <input name="name" type="text" class="text" id="name" tabindex="100" placeholder="first, then last name" autofocus required title="Your first and last name">
+              <input name="name" type="text" class="text" id="name" tabindex="100" placeholder="last name, first" autofocus required title="Your first and last name">
             </p>
+            <p>
+              <label for="phone">Address</label>
+              <input name="phone" type="tel" class="text" id="phone" tabindex="160" placeholder="address" title="Your phone number">
+            </p>
+            <p>
+              <label for="zip">Zip Code</label>
+              <input name="zip" type="text" class="text" id="zip" tabindex="160" pattern="^[0-9]{5}$" title="Enter a 5 digit ZIP code" required>
+            </p>     
+            <p>
+              <label for="zip">City</label>
+              <input name="zip" type="text" class="text" id="zip" tabindex="160" pattern="^[0-9]{5}$" title="Enter a 5 digit ZIP code" required>
+            </p>     
+            <p>
+              <label for="zip">State</label>
+              <input name="zip" type="text" class="text" id="zip" tabindex="160" pattern="^[0-9]{5}$" title="Enter a 5 digit ZIP code" required>
+            </p>     
+            
+            
             <p>
               <label for="email">Email</label>
               <input name="email" type="email" class="text" id="email" tabindex="110" placeholder="you@youremailaddress.ext"  required title="Your email address">
             </p>
+            
             <p>
               <label for="phone">Phone</label>
               <input name="phone" type="tel" class="text" id="phone" tabindex="130" placeholder="optional phone number" title="Your phone number">
             </p>
-            <p>
-              <label for="zip">5-digit Zip Code</label>
-              <input name="zip" type="text" class="text" id="zip" tabindex="160" pattern="^[0-9]{5}$" title="Enter a 5 digit ZIP code" required>
-            </p>     
+            
            </fieldset>
       </form>
       <p>please sign up for our news letter <span class="enter"><a href="#" title="enter our contest">Submit</a></span></p>

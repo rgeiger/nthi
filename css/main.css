@@ -121,10 +121,15 @@ header h1 {
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+	
 }
 
 header h2 {
 		background: url(../images/israel_logo.jpg) no-repeat left center;
+		padding: 0px;
+		margin: 0px;
 }
 
 /*nav styles*/
