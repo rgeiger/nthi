@@ -128,8 +128,8 @@ header h1 {
 
 header h2 {
 		background: url(../images/israel_logo.jpg) no-repeat left center;
-		padding: 0px;
-		margin: 0px;
+		padding: 0 0 0 85px;
+		margin: 0 0 0 0;
 }
 
 /*nav styles*/
@@ -957,12 +957,12 @@ header {
 
 header h1 {
 	font-size: 2em;
-	padding-left: 110px;
+	padding-left: 10px;
 	line-height: 100px;
 	line-height: 165px;
 	margin-right: .5em;
 	float: left;
-	margin-left: 3.9%;/* fixes nasty 1px header fitting problem*/
+	margin-left: 2%;/* fixes nasty 1px header fitting problem*/
 	display: inline;
 }
 
@@ -1043,7 +1043,7 @@ a.shop {
 
 .banner p {
 	width: 21%;
-	padding: 1% 1% 0;
+	padding: 10px 10px 0 15px;
 	height: 350px;
 	font-size: 1em;
 	color: #fff;
@@ -1053,6 +1053,50 @@ a.shop {
 	right: 0;
 }
 
+.donate {
+	/*width: 21%;
+	padding: 0 10px 0 10px;
+	height: 90px;
+	background: rgba(0, 0, 25, .4);
+	
+*/
+	position: absolute;
+	top: 260px;
+	right: 35%%;
+	
+
+
+		-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+		box-shadow:inset 0px 1px 0px 0px #fff6af;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+		background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+		background-color:#ffec64;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		border-radius:3px;
+		border:1px solid #ffaa22;
+		display:inline-block;
+		color:#333333;
+		font-family:arial;
+		font-size:15px;
+		font-weight:bold;
+		padding: 6px 24px;
+		text-decoration:none;
+		text-shadow:1px 1px 0px #ffee66;
+	}
+	
+	.donate:hover {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+		background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+		background-color:#ffab23;
+	}.donate:active {
+		position:relative;
+		top:1px;
+	}
+	
 /* article styles */
 article {
 	width: 100%;
